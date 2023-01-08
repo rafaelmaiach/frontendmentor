@@ -1,0 +1,42 @@
+:root {
+    --aurometal-saurus: #6C7289;
+    --cream: hsl(30, 38%, 92%);
+    --deep-aquamarine-dark: #1A4032;
+    --deep-aquamarine: #3D8168;
+    --gunmetal: #1C232B;
+    --pure-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--cream);
+    color: var(--aurometal-saurus)
+}
+
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
+.fraunces {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+}
